@@ -1,0 +1,77 @@
+#!/usr/bin/python2.7
+import os
+import datetime
+import time
+import socket
+import traceback
+from threading import Thread
+from py_hosted import config, node
+from py_clock import update_time, Clockwork
+from py_guidebook import update_guidebook_data, send_update
+from py_guidebook import checks as guidebook_checks
+
+service_version = "0.1.0"
+
+config.restart_on_update()
+sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+IP_PORT = ("127.0.0.1", 4444)
+
+clockwork = Clockwork(
+    config.metadata_timezone,
+    config.debug_datetime,
+    config.debug_time_accel
+)
+
+if config.guidebook_api_key != "":
+    guidebook_api_key = config.guidebook_api_key
+else:
+    guidebook_api_key = os.getenv("GUIDEBOOK_API_KEY", "")
+
+
+def update_time_thread():
+    while True:
+        try:
+            now = clockwork.now_local()
+            update_time(node, now)
+        except Exception:
+            pass
+
+        time.sleep(1)
+
+
+def update_guidebook_thread():
+    while True:
+        try:
+            now = clockwork.now_local()
+            update_guidebook_data(
+                node,
+                guidebook_api_key,
+                config.guidebook_guide_id,
+                now,
+                config.metadata_timezone,
+                datetime.timedelta(hours=config.all_day_threshold),
+                datetime.timedelta(hours=config.is_soon_threshold),
+                os.environ["SCRATCH"],
+                config.session_rename,
+                config.location_rename
+            )
+        except Exception as e:
+            send_update(node, False, guidebook_checks, "Unexpected failure", e)
+            traceback.print_exc()
+
+        time.sleep(60)
+
+
+# Kick off service threads
+threads = [
+    update_time_thread,
+    update_guidebook_thread,
+]
+
+for fn in threads:
+    t = Thread(target=fn)
+    t.daemon = True
+    t.start()
+
+while True:
+    time.sleep(0.1)

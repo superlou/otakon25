@@ -1,0 +1,181 @@
+{
+    "_note": "This config.json is not used. It is only for local development.",
+    "__metadata":{
+        "api":"https://info-beamer.com/api/v1/device/34211/on-device/19715-af3e7739943295ec270a95747cbdb7ea",
+        "config_hash":"72de2df326a3d698",
+        "config_rev":3,
+        "device_data":{},
+        "device_id":34211,
+        "instance_id":254807,
+        "instance_path":"",
+        "node_idx":0,
+        "node_path":"",
+        "package_id":39745,
+        "scratch":"52bb206f6c612738",
+        "secrets": {
+            "account":"redacted",
+            "setup":"redacted"
+        },
+        "setup_id":245722,
+        "sync_ts":1702845900,
+        "timezone":"America/New_York"
+    },
+    "ticker_msgs":[
+        {"ticker_text_msg":"First ticker message"},
+        {"ticker_text_msg":"Second ticker message"},
+        {"ticker_text_msg":"Last ticker message"}
+    ],
+    "debug_datetime": "2025-03-22T18:30:00",
+    "debug_time_accel": 1.0,
+    "guidebook_api_key": "",
+    "guidebook_guide_id": "208676",
+    "ticker_speed": 2.0,
+    "all_day_threshold": 3.9,
+    "is_soon_threshold": 1.0,
+    "session_rename": "30409665,Street Fighter\n30409525,VIP Meet and Greet with Flow\n",
+    "location_rename": "4783251,Club Ota (Marriott M4)",
+    "inset_topic_player": [{
+        "device":"",
+        "duration": 5,
+        "heading":"",
+        "media": {
+            "asset_id": 1245,
+            "asset_name":"test-asset-230fa9420ff9c02da9320-street.png",
+            "filename":"street.png",
+            "metadata":{"format": "png", "height": 964, "width": 1280},
+            "tags":[],
+            "type":"image"
+        },
+        "message":"!session-brief\ndata:data_sessions_all_day.json\nfilter-location:Club Ota (Marriott M4 Independence)",
+        "disabled": false
+    }],
+    "sidebar_topic_player": [{
+        "device": "",
+        "duration": 5,
+        "heading": "All Day",
+        "media": {
+            "asset_id": 1245,
+            "asset_name":"test-asset-230fa9420ff9c02da9320-street.png",
+            "filename":"street.png",
+            "metadata":{"format": "png", "height": 964, "width": 1280},
+            "tags":[],
+            "type":"image"
+        },
+        "message": "!session-brief\ndata:data_sessions_all_day.json\nexclude-track:Type: Autographs",
+        "disabled": false
+    }, {
+        "device":"",
+        "duration": 5,
+        "heading":"Simple Text Info",
+        "media": {"filename":"img_no_media.png"},
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "disabled": true
+    }, {
+        "device": "",
+        "duration": 5,
+        "heading": "Happening Now",
+        "media": {
+            "asset_id": 1245,
+            "asset_name":"test-asset-230fa9420ff9c02da9320-street.png",
+            "filename":"street.png",
+            "metadata":{"format": "png", "height": 964, "width": 1280},
+            "tags":[],
+            "type":"image"
+        },
+        "message": "!session-list\ndata:data_sessions_now.json\n",
+        "disabled": false
+    }, {
+        "device":"",
+        "duration": 5,
+        "heading":"Club OTA",
+        "media": {
+            "asset_id": 1245,
+            "asset_name":"test-asset-230fa9420ff9c02da9320-street.png",
+            "filename":"street.png",
+            "metadata":{"format": "png", "height": 964, "width": 1280},
+            "tags":[],
+            "type":"image"
+        },
+        "message":"!session-brief\ndata:data_sessions_all_day.json\nfilter-location:Club Ota (Marriott M4 Independence)",
+        "disabled": true
+    }, {
+        "device":"",
+        "duration": 5,
+        "heading":"Today",
+        "media": {
+            "asset_id": 1245,
+            "asset_name":"test-asset-230fa9420ff9c02da9320-street.png",
+            "filename":"img_no_media.png",
+            "metadata":{"format": "png", "height": 964, "width": 1280},
+            "tags":[],
+            "type":"image"
+        },
+        "message":"!session-brief\ndata:data_sessions_all_day.json\nexclude-closed:true",
+        "disabled": true
+    }, {
+        "device":"",
+        "duration":5,
+        "heading":"AUTOGRAPHS",
+        "media": {
+            "asset_id":1576303,
+            "asset_name":"test-asset-e34322bab2ee7b7196d23529692d86ec-example_autograph.png",
+            "filename":"example_autograph.png",
+            "metadata":{"format":"png", "height":964, "width":694}
+        },
+        "message":"",
+        "disabled": true
+    }, {
+        "device":"",
+        "duration":5,
+        "heading":"AUTOGRAPHS",
+        "media": {
+            "asset_id":1576303,
+            "asset_name":"test-asset-12345678b2ee1b7a96d23529692d86ec-example_autograph2.png",
+            "filename":"example_autograph2.png",
+            "metadata":{"format":"png", "height":964, "width":694}
+        },
+        "message":"",
+        "disabled": true
+    }],
+    "main_topic_player": [{
+        "device": "",
+        "duration": 5,
+        "heading": "Happening Now",
+        "media": {
+            "asset_id": 1245,
+            "asset_name":"test-asset-230fa9420ff9c02da9320-street.png",
+            "filename":"img_no_media.png",
+            "metadata":{"format": "png", "height": 964, "width": 1280},
+            "tags":[],
+            "type":"image"
+        },
+        "message": "!session-list\ndata:data_sessions_now.json\nexclude-track:Type: Convention Service\ninclude-id:12345",
+        "disabled": false
+    }, {
+        "device": "",
+        "duration": 5,
+        "heading": "Starting Soon",
+        "media": {},
+        "message": "!session-list\ndata:data_sessions_soon.json\n",
+        "disabled": true
+    }, {
+        "device":"",
+        "duration": 5,
+        "heading":"Full Screen Event Image",
+        "media": {
+            "asset_id":1576303,
+            "asset_name":"test-asset-123-809a38402d9813593eca9-example_event.png",
+            "filename":"example_event.png",
+            "metadata":{"format":"png", "height":964, "width":1332}
+        },
+        "message":"",
+        "disabled": false
+    }, {
+        "device":"",
+        "duration": 5,
+        "heading":"Simple Text Info",
+        "media": {"filename":"img_no_media.png"},
+        "message": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "disabled": false
+    }]
+}

@@ -1,0 +1,8 @@
+{
+    "name": "otakon25",
+    "author": "superlou <lousimons@gmail.com>",
+    "desc": "Digital signage for Otakon 2025",
+    "platforms": [
+        "pi/epoch-1", "pi/epoch-2"
+    ]
+}

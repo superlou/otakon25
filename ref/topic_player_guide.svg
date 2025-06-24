@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="topic_player_guide.svg"
+   inkscape:version="1.4 (1:1.4+202410161351+e7c3feb100)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.3251585"
+     inkscape:cx="335.80888"
+     inkscape:cy="567.47927"
+     inkscape:window-width="1231"
+     inkscape:window-height="1048"
+     inkscape:window-x="1920"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="marker18"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path18" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="ArrowWide"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path1" />
+    </marker>
+    <rect
+       x="24.171797"
+       y="21.754618"
+       width="329.99472"
+       height="46.361046"
+       id="rect1" />
+    <rect
+       x="24.171797"
+       y="21.754618"
+       width="329.99472"
+       height="46.361046"
+       id="rect2" />
+    <rect
+       x="24.171797"
+       y="21.754618"
+       width="324.56155"
+       height="73.526926"
+       id="rect7" />
+    <rect
+       x="24.171797"
+       y="21.754618"
+       width="336.61106"
+       height="70.028681"
+       id="rect13" />
+    <rect
+       x="24.171797"
+       y="21.754618"
+       width="324.56155"
+       height="73.526926"
+       id="rect22" />
+    <rect
+       x="24.171797"
+       y="21.754618"
+       width="324.56155"
+       height="73.526926"
+       id="rect23" />
+    <rect
+       x="24.171797"
+       y="21.754618"
+       width="324.56155"
+       height="73.526926"
+       id="rect24" />
+    <rect
+       x="24.171797"
+       y="21.754618"
+       width="489.29036"
+       height="66.286099"
+       id="rect25" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1;font-family:'Noto Mono';-inkscape-font-specification:'Noto Mono';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect1);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.55906;paint-order:stroke fill markers"><tspan
+         x="24.171875"
+         y="31.253906"
+         id="tspan4"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan3">A TopicPlayer receives a list of slides and calls the draw </tspan></tspan><tspan
+         x="24.171875"
+         y="44.005905"
+         id="tspan10"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan9">method of each one to handle transitions between each. </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,0,18.927487)"
+       id="text2"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1;font-family:'Noto Mono';-inkscape-font-specification:'Noto Mono';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect2);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.55906;paint-order:stroke fill markers"><tspan
+         x="24.171875"
+         y="31.253906"
+         id="tspan18"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan13">TopicPlayers have a height and width at creation and are </tspan></tspan><tspan
+         x="24.171875"
+         y="44.005905"
+         id="tspan20"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan19">typically drawn with offsets in x and y. This creates a rectangle </tspan></tspan><tspan
+         x="24.171875"
+         y="56.757904"
+         id="tspan29"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan28">they are responsible for drawing within the infobeamer node.</tspan></tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       id="rect4"
+       width="98.28611"
+       height="44.696232"
+       x="7.0693026"
+       y="38.995186" />
+    <rect
+       style="fill:#57e389;fill-opacity:1;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       id="rect5"
+       width="28.733295"
+       height="39.305504"
+       x="76.622116"
+       y="38.995186" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       x="8.0860929"
+       y="87.868881"
+       id="text5"><tspan
+         sodipodi:role="line"
+         id="tspan5"
+         style="stroke-width:2;stroke:none;fill:#000000"
+         x="8.0860929"
+         y="87.868881">node</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       x="77.446808"
+       y="76.728043"
+       id="text6"><tspan
+         sodipodi:role="line"
+         id="tspan6"
+         style="fill:#000000;stroke:none;stroke-width:2"
+         x="77.446808"
+         y="76.728043">topicPlayer2</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,0,88.10851)"
+       id="text7"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1;font-family:'Noto Mono';-inkscape-font-specification:'Noto Mono';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect7);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.55906;paint-order:stroke fill markers"><tspan
+         x="24.171875"
+         y="31.443813"
+         id="tspan31"><tspan
+           style="font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+           id="tspan30">Each TopicPlayer is given style information that controls </tspan></tspan><tspan
+         x="24.171875"
+         y="43.63372"
+         id="tspan33"><tspan
+           style="font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+           id="tspan32">how Topics are drawn. This includes hints for padding, so </tspan></tspan><tspan
+         x="24.171875"
+         y="55.823627"
+         id="tspan35"><tspan
+           style="font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+           id="tspan34">critical information can be drawn in regions that other </tspan></tspan><tspan
+         x="24.171875"
+         y="68.013534"
+         id="tspan37"><tspan
+           style="font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+           id="tspan36">design elements may overlap. Padding is specified in a list - </tspan></tspan><tspan
+         x="24.171875"
+         y="80.203441"
+         id="tspan39"><tspan
+           style="font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+           id="tspan38">[top, right, bottom, left] - similar to CSS.</tspan></tspan></text>
+    <rect
+       style="fill:#1c71d8;fill-opacity:1;stroke:none;stroke-width:1.99999;paint-order:stroke fill markers"
+       id="rect8"
+       width="69.552811"
+       height="39.305504"
+       x="-76.622108"
+       y="38.995186"
+       transform="scale(-1,1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       x="9.7033129"
+       y="76.728043"
+       id="text8"><tspan
+         sodipodi:role="line"
+         id="tspan8"
+         style="fill:#000000;stroke:none;stroke-width:2"
+         x="9.7033129"
+         y="76.728043">topicPlayer1</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.5;paint-order:stroke fill markers;stroke-opacity:1;stroke-dasharray:none"
+       id="rect3"
+       width="98.28611"
+       height="44.696232"
+       x="7.0693026"
+       y="38.995186" />
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       id="rect9"
+       width="98.28611"
+       height="44.696232"
+       x="10.061359"
+       y="116.62168" />
+    <rect
+       style="fill:#1c71d8;fill-opacity:1;stroke:none;stroke-width:1.99999;paint-order:stroke fill markers"
+       id="rect11"
+       width="97.023682"
+       height="52.431747"
+       x="-107.08504"
+       y="113.96054"
+       transform="scale(-1,1)" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       x="87.583183"
+       y="118.16621"
+       id="text12"><tspan
+         sodipodi:role="line"
+         id="tspan12"
+         style="fill:#000000;stroke:none;stroke-width:2"
+         x="87.583183"
+         y="118.16621">topicPlayer1</tspan></text>
+    <rect
+       style="fill:#57e389;fill-opacity:1;stroke:none;stroke-width:1.99999;paint-order:stroke fill markers"
+       id="rect10"
+       width="87.441696"
+       height="10.799311"
+       x="14.852347"
+       y="151.00726" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       x="16.246027"
+       y="160.23393"
+       id="text11"><tspan
+         sodipodi:role="line"
+         id="tspan11"
+         style="fill:#000000;stroke:none;stroke-width:2"
+         x="16.246027"
+         y="160.23393">topicPlayer2</tspan></text>
+    <rect
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-dasharray:1.49999, 1.49999;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       id="rect12"
+       width="86.074448"
+       height="27.050955"
+       x="15.535972"
+       y="121.00589" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       x="55.466728"
+       y="118.80217"
+       id="text14"><tspan
+         sodipodi:role="line"
+         id="tspan14"
+         style="fill:#000000;stroke:none;stroke-width:2"
+         x="55.466728"
+         y="118.80217">top</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,10.456971,123.17625)"
+       id="text22"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10px;line-height:1;font-family:'Noto Mono';-inkscape-font-specification:'Noto Mono';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect22);display:inline;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:7.55906;paint-order:stroke fill markers"><tspan
+         x="24.171875"
+         y="29.670573"
+         id="tspan41"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan40">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis </tspan></tspan><tspan
+         x="24.171875"
+         y="40.29724"
+         id="tspan43"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan42">elit quis nisi tincidunt tincidunt sit amet nec nisl. Etiam vitae turpis vel </tspan></tspan><tspan
+         x="24.171875"
+         y="50.923907"
+         id="tspan45"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan44">arcu facilisis suscipit. Vestibulum interdum turpis vitae ex iaculis </tspan></tspan><tspan
+         x="24.171875"
+         y="61.550574"
+         id="tspan47"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan46">bibendum. Nulla ultrices nibh nec felis sodales, sit amet tincidunt enim </tspan></tspan><tspan
+         x="24.171875"
+         y="72.177241"
+         id="tspan49"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan48">fermentum. Cras vel gravida ipsum, at fermentum augue. Aliquam vitae </tspan></tspan><tspan
+         x="24.171875"
+         y="82.803904"
+         id="tspan51"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan50">blandit dui. Nam non porta felis. </tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       x="107.93941"
+       y="135.40506"
+       id="text15"><tspan
+         sodipodi:role="line"
+         id="tspan15"
+         style="fill:#000000;stroke:none;stroke-width:2"
+         x="107.93941"
+         y="135.40506">right</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       x="53.869846"
+       y="157.06398"
+       id="text16"><tspan
+         sodipodi:role="line"
+         id="tspan16"
+         style="fill:#000000;stroke:none;stroke-width:2"
+         x="53.869846"
+         y="157.06398">bottom</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       x="3.836468"
+       y="135.80168"
+       id="text17"><tspan
+         sodipodi:role="line"
+         id="tspan17"
+         style="fill:#000000;stroke:none;stroke-width:2"
+         x="3.836468"
+         y="135.80168">left</tspan></text>
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499999;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#ArrowWide);marker-end:url(#marker18);paint-order:stroke fill markers"
+       d="m 53.176117,114.35722 v 6.34623"
+       id="path17" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499998;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#ArrowWide);marker-end:url(#marker18);paint-order:stroke fill markers"
+       d="m 53.176116,148.44985 v 17.43828"
+       id="path19"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499998;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#ArrowWide);marker-end:url(#marker18);paint-order:stroke fill markers"
+       d="m 106.8132,134.63381 h -4.45561"
+       id="path20"
+       sodipodi:nodetypes="cc" />
+    <path
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.499998;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker-start:url(#ArrowWide);marker-end:url(#marker18);paint-order:stroke fill markers"
+       d="M 15.063323,134.63381 H 10.60772"
+       id="path21"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.499999;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
+       x="17.068928"
+       y="124.8838"
+       id="text21"><tspan
+         sodipodi:role="line"
+         id="tspan21"
+         style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.5"
+         x="17.068928"
+         y="124.8838">HEADING TEXT</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,0,166.06822)"
+       id="text23"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1;font-family:'Noto Mono';-inkscape-font-specification:'Noto Mono';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect23);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.55906;paint-order:stroke fill markers"><tspan
+         x="24.171875"
+         y="31.253906"
+         id="tspan53"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan52">Topics need to gracefully handle paging or truncating their </tspan></tspan><tspan
+         x="24.171875"
+         y="44.005905"
+         id="tspan55"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan54">content based on the dimensions and margins. They can </tspan></tspan><tspan
+         x="24.171875"
+         y="56.757904"
+         id="tspan57"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan56">include lower priority content like backgrounds over the entire </tspan></tspan><tspan
+         x="24.171875"
+         y="69.509903"
+         id="tspan59"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan58">region.</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,0,181.25533)"
+       id="text24"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1;font-family:'Noto Mono';-inkscape-font-specification:'Noto Mono';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect24);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.55906;paint-order:stroke fill markers"><tspan
+         x="24.171875"
+         y="31.253906"
+         id="tspan61"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan60">There is no concept of a border or margin like in CSS.</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,0,197.42226)"
+       id="text25"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;line-height:1;font-family:'Noto Mono';-inkscape-font-specification:'Noto Mono';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect25);display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:7.55906;paint-order:stroke fill markers"><tspan
+         x="24.171875"
+         y="31.253906"
+         id="tspan63"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan62">The topic types are:
+</tspan></tspan><tspan
+         x="24.171875"
+         y="44.005905"
+         id="tspan65"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan64">
+</tspan></tspan><tspan
+         x="24.171875"
+         y="56.757904"
+         id="tspan67"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan66">* TopicInfo - displays text in the content on topic of an image that extends into the padding
+</tspan></tspan><tspan
+         x="24.171875"
+         y="69.509903"
+         id="tspan69"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan68">* TopicSessionList - for short sessions. Has a &quot;compact&quot; form for narrow TopicPlayers.
+</tspan></tspan><tspan
+         x="24.171875"
+         y="82.261902"
+         id="tspan71"><tspan
+           style="font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans'"
+           id="tspan70">* TopicSessionBrief - designed for sessions that are open long-term</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f9f06b;fill-opacity:1;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       x="49.428726"
+       y="127.54992"
+       id="text26"><tspan
+         sodipodi:role="line"
+         id="tspan26"
+         style="fill:#f9f06b;stroke:none;stroke-width:2"
+         x="49.428726"
+         y="127.54992">content</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;line-height:1;font-family:'Nimbus Sans';-inkscape-font-specification:'Nimbus Sans';text-align:start;letter-spacing:0px;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#f9f06b;fill-opacity:1;stroke:none;stroke-width:2;paint-order:stroke fill markers"
+       x="30.397017"
+       y="118.46271"
+       id="text27"><tspan
+         sodipodi:role="line"
+         id="tspan27"
+         style="fill:#f9f06b;stroke:none;stroke-width:2"
+         x="30.397017"
+         y="118.46271">padding</tspan></text>
+  </g>
+</svg>

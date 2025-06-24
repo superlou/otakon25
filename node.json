@@ -1,0 +1,201 @@
+{
+    "name": "Main Node",
+    "permissions": {
+        "network": "Needs to access Guidebook API"
+    },
+    "scratch_mount": "SCRATCH",
+    "options": [
+        {
+            "title": "Ticker",
+            "intro": "The ticker scrolls text along the bottom of the sign.",
+            "type": "section"
+        },
+        {
+            "title": "Ticker Messages",
+            "name": "ticker_msgs",
+            "type": "list",
+            "itemname": "Ticker Message",
+            "items": [{
+                "title": "Ticker Text Message",
+                "name": "ticker_text_msg",
+                "type": "string"
+            }]
+        },
+        {
+            "title": "Ticker Speed",
+            "name": "ticker_speed",
+            "type": "float"
+        },
+        {
+            "title": "Session Configuration",
+            "intro": "Configuration options for session analysis.",
+            "type": "section"
+        },        
+        {
+            "title": "All-day threshold (hours)",
+            "name": "all_day_threshold",
+            "hint": "Sessions longer than this threshold are considered \"all day\"",
+            "type": "float",
+            "default": 3.5
+        },
+        {
+            "title": "Is-soon threshold (hours)",
+            "name": "is_soon_threshold",
+            "hint": "How far in the future to consider a session as starting \"soon\"",
+            "type": "float",
+            "default": 1.0
+        },
+        {
+            "title": "Session Rename",
+            "name": "session_rename",
+            "hint": "Rename sessions with one \"id,new name\" pair per line",
+            "type": "text"
+        },
+        {
+            "title": "Location Rename",
+            "name": "location_rename",
+            "hint": "Rename locations with one \"id,new name\" pair per line",
+            "type": "text"
+        },
+        {
+            "title": "Topic Players",
+            "intro": "The topic players cycle through \"topics\" on the left and right side of the sign.",
+            "type": "section"
+        },       
+        {
+            "title": "Main Topic Player",
+            "name": "main_topic_player",
+            "type": "list",
+            "itemname": "Topic",
+            "items": [{
+                "title": "Heading",
+                "name": "heading",
+                "type": "string"
+            }, {
+                "title": "Message",
+                "name": "message",
+                "type": "text"
+            }, {
+                "title": "Media",
+                "name": "media",
+                "type": "resource",
+                "valid": ["image", "video"],
+                "default": "img_no_media.png"
+            }, {
+                "title": "Duration",
+                "name": "duration",
+                "type": "duration"
+            }, {
+                "title": "Device",
+                "name": "device",
+                "type": "device"
+            }, {
+                "title": "Disabled",
+                "name": "disabled",
+                "type": "boolean",
+                "hint": "Hide a topic without deleting it"
+            }]
+        },
+        {
+            "title": "Sidebar Topic Player",
+            "name": "sidebar_topic_player",
+            "type": "list",
+            "itemname": "Topic",
+            "items": [{
+                "title": "Heading",
+                "name": "heading",
+                "type": "string"
+            }, {
+                "title": "Message",
+                "name": "message",
+                "type": "text"
+            }, {
+                "title": "Media",
+                "name": "media",
+                "type": "resource",
+                "valid": ["image", "video"],
+                "default": "img_no_media.png"
+            }, {
+                "title": "Duration",
+                "name": "duration",
+                "type": "duration"
+            }, {
+                "title": "Device",
+                "name": "device",
+                "type": "device"
+            }, {
+                "title": "Disabled",
+                "name": "disabled",
+                "type": "boolean",
+                "hint": "Hide a topic without deleting it"
+            }]
+        },
+        {
+            "title": "Inset Topic Player",
+            "name": "inset_topic_player",
+            "type": "list",
+            "itemname": "Topic",
+            "items": [{
+                "title": "Heading",
+                "name": "heading",
+                "type": "string"
+            }, {
+                "title": "Message",
+                "name": "message",
+                "type": "text"
+            }, {
+                "title": "Media",
+                "name": "media",
+                "type": "resource",
+                "valid": ["image", "video"],
+                "default": "img_no_media.png"
+            }, {
+                "title": "Duration",
+                "name": "duration",
+                "type": "duration"
+            }, {
+                "title": "Device",
+                "name": "device",
+                "type": "device"
+            }, {
+                "title": "Disabled",
+                "name": "disabled",
+                "type": "boolean",
+                "hint": "Hide a topic without deleting it"
+            }]
+        },
+        {
+            "title": "Guidebook information",
+            "intro": "Information to synchronize data from Guidebook.",
+            "type": "section"
+        },          
+        {
+            "title": "Guidebook API Key",
+            "name": "guidebook_api_key",
+            "type": "string"
+        },
+        {
+            "title": "Guidebook Guide ID",
+            "name": "guidebook_guide_id",
+            "type": "string"
+        },
+        {
+            "title": "Debug",
+            "intro": "Debugging configuration options used for testing.",
+            "type": "section"
+        },          
+        {
+            "title": "Debug Datetime",
+            "name": "debug_datetime",
+            "type": "string",
+            "hint": "Force the date and time in the form YYYY-MM-DD%HH:MM:SS. Leave blank to use the current date and time."
+        },
+        {
+            "title": "Accelerate debug time",
+            "name": "debug_time_accel",
+            "type": "float",
+            "default": 1.0,
+            "hint": "Accelerate time if using a Debug Datetime. With real time, setting to 0.0 will freeze time. Note that scheduling data is still only updated once per minute."
+        }
+    ]
+}
