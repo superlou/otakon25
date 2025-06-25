@@ -59,32 +59,30 @@ function node.render()
 
     gl.clear(1, 1, 1, 1)
 
-    sidebar_bg:draw(0, 0, 640, 946)
+    sidebar_bg:draw(1280, 0, 1280 + 640, 946)
 
-    offset(0, 0, function()
+    offset(1280, 0, function()
         topic_sidebar:draw()
     end)
 
-    main_bg:draw(640, 0, 1920, 964)
+    main_bg:draw(0, 0, 1280, 964)
 
-    offset(640, 0, function()
+    offset(0, 0, function()
         topic_main:draw()
     end)
 
-    draw_image_xywh(get_guidebook, 440, 730, 190, 209)
+    draw_image_xywh(get_guidebook, 1720, 730, 190, 209)
 
     ticker:draw()
-    draw_image_xywh(ticker_left_crop, 0, 964, 470, 116)
     draw_image_xywh(ticker_right_crop, 1692, 964, 228, 116)
 
-    offset(10, 730, function() 
+    offset(1280 + 10, 730, function() 
         inset_bg:draw(0, 0, 420, 324)
     end)
 
-    offset(20, 740, function()
+    offset(1280 + 20, 740, function()
         topic_inset:draw()
     end)
-
 
     offset(1710, 972, function()
         clock:draw()
