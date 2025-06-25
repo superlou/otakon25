@@ -12,7 +12,6 @@ local json = require "json"
 local TopicPlayer = require "topic_player"
 local tw = require "tween"
 local ServiceIndicator = require "service_indicator"
-local OctaviaPeek = require "octavia_peek"
 
 local sidebar_bg = resource.load_image "img_sidebar_bg.png"
 local main_bg = resource.load_image "img_main_bg3.png"
@@ -31,8 +30,6 @@ local style = require "style"
 local topic_sidebar = TopicPlayer(640, 964, style["sidebar_style"])
 local topic_main = TopicPlayer(1280, 964, style["main_style"])
 local topic_inset = TopicPlayer(400, 300, style["inset_style"])
-
-local octavia_peek = OctaviaPeek()
 
 util.data_mapper {
     ["clock/update"] = function(data)
@@ -76,10 +73,6 @@ function node.render()
 
     draw_image_xywh(get_guidebook, 440, 730, 190, 209)
 
-    if octavia_peek:is_behind() then
-        octavia_peek:draw(dt)
-    end
-
     ticker:draw()
     draw_image_xywh(ticker_left_crop, 0, 964, 470, 116)
     draw_image_xywh(ticker_right_crop, 1692, 964, 228, 116)
@@ -100,8 +93,4 @@ function node.render()
     offset(10, 978, function()
         service_indicator:draw()
     end)
-
-    if not octavia_peek:is_behind() then
-        octavia_peek:draw(dt)
-    end
 end
