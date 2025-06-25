@@ -31,10 +31,12 @@
 # NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 # SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+# Updated for Python 3 using https://github.com/info-beamer/package-python3
+
 VERSION = "1.9"
 
 import os, re, sys, json, time, traceback, marshal, hashlib
-import errno, socket, select, threading, Queue, ctypes
+import errno, socket, select, threading, queue, ctypes
 import pyinotify, requests
 from functools import wraps
 from collections import namedtuple
@@ -645,17 +647,18 @@ class Node(object):
 
     def send_raw(self, raw):
         log("sending %r" % (raw,))
-        self._sock.sendto(raw, ('127.0.0.1', 4444))
+        self._sock.sendto(raw.encode(), ('127.0.0.1', 4444))
 
     def send(self, data):
         self.send_raw(self._node + data)
 
     def send_json(self, path, data):
-        self.send('%s:%s' % (path, json.dumps(
+        json_str = json.dumps(
             data,
             ensure_ascii=False,
             separators=(',',':'),
-        ).encode('utf8')))
+        )
+        self.send('%s:%s' % (path, json_str))
 
     @property
     def is_top_level(self):
