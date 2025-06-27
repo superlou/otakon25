@@ -36,7 +36,7 @@
 VERSION = "1.9"
 
 import os, re, sys, json, time, traceback, marshal, hashlib
-import errno, socket, select, threading, queue, ctypes
+import errno, socket, select, threading, Queue, ctypes
 import pyinotify, requests
 from functools import wraps
 from collections import namedtuple
