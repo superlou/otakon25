@@ -4,10 +4,10 @@ require "color_util"
 local Clock = class("Clock")
 
 local font = resource.load_font "font_Poppins-Regular.ttf"
-local font_bold = resource.load_font "font_Poppins-Regular.ttf"
+local font_bold = resource.load_font "font_Poppins-Bold.ttf"
 local debug_bg = create_color_resource_hex("ffffff", 0.4)
 local date_bg = resource.load_image("img_date_bg.png")
-local date_color = {hex2rgb("#da6339")}
+local date_color = {hex2rgb("#073b98")}
 
 function Clock:initialize(w, h, show_rect)
     self.w, self.h = w, h
@@ -40,17 +40,17 @@ function Clock:draw()
     local x_anchor = 140
     local y_anchor = 60
 
-    local hh_mm_w = font:width(self.hh_mm, text_h)
-    local am_pm_w = font:width(self.am_pm, sub_h)
+    local hh_mm_w = font_bold:width(self.hh_mm, text_h)
+    local am_pm_w = font_bold:width(self.am_pm, sub_h)
     local date_w = font:width(self.date, sub_h)
     local clock_w = hh_mm_w + self.spacing + am_pm_w
     local clock_h = text_h
 
-    font:write(x_anchor - hh_mm_w, y_anchor - text_h,
+    font_bold:write(x_anchor - hh_mm_w, y_anchor - text_h,
                self.hh_mm, text_h,
                1, 1, 1, 1)
 
-    font:write(x_anchor + 4, y_anchor - text_h + 2,
+               font_bold:write(x_anchor + 4, y_anchor - text_h + 2,
                self.am_pm, sub_h,
                1, 1, 1, 1)
     
@@ -58,7 +58,7 @@ function Clock:draw()
 
     local date_r, date_g, date_b = unpack(date_color)
 
-    font_bold:write(x_anchor - date_w - 8, y_anchor + 3,
+    font:write(x_anchor - date_w - 8, y_anchor + 3,
                     self.date, sub_h,
                     date_r, date_g, date_b, 1)
 

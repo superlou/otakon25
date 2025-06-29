@@ -4,9 +4,10 @@ local class = require "middleclass"
 local Ticker = class("Ticker")
 local TickerMsg = class("TickerMsg")
 
-local font = resource.load_font "font_Poppins-Regular.ttf"
+local font = resource.load_font "font_QuattrocentoSans-Regular.ttf"
 local separator = resource.load_image("img_separator.png")
 local msg_y_offset = 32
+local text_color = {hex2rgb("#073b98")}
 
 function Ticker:initialize()
 end
@@ -35,7 +36,7 @@ function Ticker:set_msgs_from_config(config)
 end
 
 function Ticker:draw()
-    self.bg:draw(self.x, self.y, self.x + self.w, self.y + self.h)
+    -- self.bg:draw(self.x, self.y, self.x + self.w, self.y + self.h)
 
     -- Populate the first TickerMsg if there are none
     if #self.ticker_msgs == 0 then
@@ -91,10 +92,17 @@ function TickerMsg:initialize(text, x, y, font, size)
 end
 
 function TickerMsg:draw()
-    local text_width = self.font:write(self.x, self.y, self.text, self.size, 1, 1, 1, 1)
+    local text_r, text_g, text_b = unpack(text_color)
+    local text_width = self.font:write(
+        self.x, self.y,
+        self.text,
+        self.size,
+        text_r, text_g, text_b, 1
+    )
     local width, height = 64, 64
     local x_offset = 20
     local y_offset = -8
+
     separator:draw(
         self.x + text_width + x_offset, self.y + y_offset,
         self.x + text_width + width + x_offset, self.y + height + y_offset,
