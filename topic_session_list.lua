@@ -36,8 +36,8 @@ function SessionListTopic:initialize(player, w, h, style, duration, heading, tex
     local filters = extract_session_filters_from_config(text)
     sessions_filter(self.sessions_data, filters)
 
-    self.items_start_y = 210
-    self.item_h = 100
+    self.items_start_y = 140
+    self.item_h = 94
     self.item_gap = 20
 
     local items_space = self.h - self.items_start_y - self.style.padding[3]
@@ -185,8 +185,8 @@ end
 function SessionListItem:draw_normal()
     if self.bg_img then
         self.bg_img:draw(
-            self.padding[2] / 2, -15,
-            self.w - self.padding[4] / 2, -15 + self.h,
+            self.padding[2] / 2, -12,
+            self.w - self.padding[4] / 2, -12 + self.h,
         self.alpha)
     end
 
@@ -241,8 +241,8 @@ end
 function SessionListItem:draw_compact()
     if self.bg_img then
         self.bg_img:draw(
-            self.padding[2] / 2, -15,
-            self.w - self.padding[4] / 2, -15 + self.h,
+            self.padding[2] / 2, -12,
+            self.w - self.padding[4] / 2, -12 + self.h,
         self.alpha)
     end
 

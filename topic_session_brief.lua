@@ -31,9 +31,9 @@ function SessionBriefTopic:initialize(player, w, h, style, duration, heading, te
     local filters = extract_session_filters_from_config(text)
     sessions_filter(self.sessions_data, filters)
 
-    self.items_start_y = 210
-    self.item_h = 100
-    self.item_gap = 15
+    self.items_start_y = 140
+    self.item_h = 84
+    self.item_gap = 30
 
     local items_space = self.h - self.items_start_y - self.style.padding[3]
     self.sessions_per_page = math.floor(items_space / (self.item_h + self.item_gap))
@@ -166,7 +166,7 @@ function SessionBriefItem:initialize(name, locations,
     end
 
     self.text_color = {hex2rgb(self.style.text.color)}
-    self.font_size = 50
+    self.font_size = 42
     self.font = self.style.text.font
 
     -- Calculations to right align
@@ -227,7 +227,7 @@ function SessionBriefItem:draw()
 
     if #self.locations > 0 then
         self.font:write(
-            40, 60, self.locations[1], self.font_size * 0.5,
+            40, 50, self.locations[1], self.font_size * 0.5,
             r, g, b, self.alpha
         )
     end
