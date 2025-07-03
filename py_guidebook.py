@@ -9,7 +9,8 @@ import requests
 from pytz import utc
 
 class Guidebook:
-    def __init__(self, api_key):
+    def __init__(self, api_key, api_base=None):
+        self.API_BASE = api_base or "https://builder.guidebook.com/open-api/v1.1/"
         self.API_KEY = api_key
     
     def headers(self):
@@ -23,12 +24,11 @@ class Guidebook:
         return response.json()
 
     def get_guides(self):
-        URL = "https://builder.guidebook.com/open-api/v1.1/guides/"
-        rsp = self.get_json(URL)
-        return rsp
+        response = self.get_json(self.API_BASE + "guides/")
+        return response
     
     def get_sessions(self, guide_id=None, ordering="start_time"):
-        url = "https://builder.guidebook.com/open-api/v1.1/sessions/"
+        url = self.API_BASE +"sessions/"
         params = {
             "guide": guide_id,
             # "ordering": ordering,
@@ -52,7 +52,7 @@ class Guidebook:
         return sessions
     
     def get_locations(self, guide_id=None):
-        url = "https://builder.guidebook.com/open-api/v1.1/locations/"
+        url = self.API_BASE + "locations/"
         params = {
             "guide": guide_id
         }
@@ -70,7 +70,7 @@ class Guidebook:
         return locations
 
     def get_schedule_tracks(self, guide_id=None):
-        url = "https://builder.guidebook.com/open-api/v1.1/schedule-tracks/"
+        url = self.API_BASE + "schedule-tracks/"
         params = {
             "guide": guide_id
         }
@@ -164,7 +164,7 @@ def rename_field_to_dict(field):
     return m
 
 
-def update_guidebook_data(node, api_key, guide_id, now, local_tz,
+def update_guidebook_data(node, api_key, api_base, guide_id, now, local_tz,
                           all_day_threshold, is_soon_threshold,
                           scratch_dir,
                           session_rename_field, location_rename_field):
@@ -184,7 +184,7 @@ def update_guidebook_data(node, api_key, guide_id, now, local_tz,
     try:
         checks["fetch"] = IN_PROGRESS
         send_update(node, True, checks, "Fetching from Guidebook")
-        guidebook = Guidebook(api_key)
+        guidebook = Guidebook(api_key, api_base)
         sessions = build_session_list(guidebook, guide_id, local_tz, session_rename_map, location_rename_map)
         checks["fetch"] = OK
         send_update(node, True, checks, "Fetched successfully")

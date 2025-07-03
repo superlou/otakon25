@@ -175,6 +175,12 @@
             "type": "string"
         },
         {
+            "title": "Guidebook API Base",
+            "name": "guidebook_api_base",
+            "type": "string",
+            "hint": "Base URL for Guidebook-like API"
+        },
+        {
             "title": "Guidebook Guide ID",
             "name": "guidebook_guide_id",
             "type": "string"

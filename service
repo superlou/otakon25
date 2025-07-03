@@ -46,6 +46,7 @@ def update_guidebook_thread():
             update_guidebook_data(
                 node,
                 guidebook_api_key,
+                "http://localhost:8000/api/v1.1/",
                 config.guidebook_guide_id,
                 now,
                 config.metadata_timezone,
