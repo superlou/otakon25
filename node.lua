@@ -67,7 +67,7 @@ function node.render()
         topic_sidebar:draw()
     end)
 
-    main_bg:draw(0, 0, 1280, 964)
+    -- main_bg:draw(0, 0, 1280, 964)
 
     offset(0, 0, function()
         topic_main:draw()

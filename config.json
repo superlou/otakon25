@@ -28,7 +28,7 @@
     "debug_datetime": "2025-03-22T18:30:00",
     "debug_time_accel": 1.0,
     "guidebook_api_key": "",
-    "guidebook_api_base": "http://localhost:8000/api/v1.1/",
+    "guidebook_api_base": "https://docburg.com/api/v1.1/",
     "guidebook_guide_id": "208676",
     "ticker_speed": 2.0,
     "all_day_threshold": 3.9,
