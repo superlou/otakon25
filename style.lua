@@ -49,10 +49,10 @@ local main_style = {
     padding = {40, 50, 20, 50},
     info = {
         text_color = "2b364c",
-        text_frame = create_color_resource_hex("f0f4f5", 1.0),
+        text_frame = create_color_resource_hex("f0f4f5", 0.9),
     },
     session_list = {
-        item_bg_img = create_color_resource_hex("f0f4f5", 1.0), --resource.load_image("img_event_row_bg.png"),
+        item_bg_img = create_color_resource_hex("f0f4f5", 0.9), --resource.load_image("img_event_row_bg.png"),
         compact = false
     },
     session_brief = {
