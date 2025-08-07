@@ -11,8 +11,8 @@ local sidebar_style = {
         style = "underline",
         font = font_hdg,
         font_size = 48,
-        text_color = "da6339",
-        shadow_color = "da6339",
+        text_color = "d03946",
+        shadow_color = "d03946",
         padding = 50,
     },
     text = {
